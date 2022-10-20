@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/quarkus-pact.iml" filepath="$PROJECT_DIR$/.idea/quarkus-pact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quarkus-pact-provider/runtime/quarkus-pact-provider.iml" filepath="$PROJECT_DIR$/quarkus-pact-provider/runtime/quarkus-pact-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quarkus-pact-provider/deployment/quarkus-pact-provider-deployment.iml" filepath="$PROJECT_DIR$/quarkus-pact-provider/deployment/quarkus-pact-provider-deployment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quarkus-pact-provider/docs/quarkus-pact-provider-docs.iml" filepath="$PROJECT_DIR$/quarkus-pact-provider/docs/quarkus-pact-provider-docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quarkus-pact-provider/integration-tests/quarkus-pact-provider-integration-tests.iml" filepath="$PROJECT_DIR$/quarkus-pact-provider/integration-tests/quarkus-pact-provider-integration-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quarkus-pact-provider/quarkus-pact-provider-parent.iml" filepath="$PROJECT_DIR$/quarkus-pact-provider/quarkus-pact-provider-parent.iml" />
     </modules>
   </component>
 </project>

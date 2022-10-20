@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/quarkus-pact-provider/deployment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-pact-provider/deployment/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-pact-provider/docs/modules/ROOT/examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-pact-provider/docs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-pact-provider/integration-tests/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-pact-provider/integration-tests/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-pact-provider/integration-tests/src/test/resources-filtered/projects/happy-farm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-pact-provider/integration-tests/src/test/resources-filtered/projects/happy-farm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-pact-provider/runtime/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-pact-provider/runtime/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-pact-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-pact-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
