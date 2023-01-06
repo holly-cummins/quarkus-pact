@@ -4,9 +4,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>test-application</groupId>
   <artifactId>happy-farm</artifactId>
-  <version>${project.version}</version>
+  <version>0.2-SNAPSHOT</version>
 
   <properties>
+    <quarkus.version>999-SNAPSHOT</quarkus.version>
+    <quarkus.platform.version>2.15.1.Final</quarkus.platform.version>
     <compiler-plugin.version>3.8.1</compiler-plugin.version>
     <failsafe.useModulePath>false</failsafe.useModulePath>
     <maven.compiler.release>11</maven.compiler.release>
@@ -21,7 +23,7 @@
       <dependency>
         <groupId>${quarkus.platform.group-id}</groupId>
         <artifactId>${quarkus.platform.artifact-id}</artifactId>
-        <version>${quarkus.version}</version>
+        <version>${quarkus.platform.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -42,7 +44,8 @@
       <groupId>io.quarkiverse.pact</groupId>
       <artifactId>quarkus-pact-provider</artifactId>
       <version>${project.version}</version>
-      <!-- <scope>test</scope>--> <!-- See https://github.com/quarkiverse/quarkus-pact/issues/28; for dev mode tests, the scope cannot be test -->
+      <scope>test</scope>
+      <!-- See https://github.com/quarkiverse/quarkus-pact/issues/28; for dev mode tests, the scope cannot be test -->
     </dependency>
 
   </dependencies>
@@ -51,7 +54,7 @@
       <plugin>
         <groupId>${quarkus.platform.group-id}</groupId>
         <artifactId>quarkus-maven-plugin</artifactId>
-        <version>${quarkus.version}</version>
+        <version>${quarkus.platform.version}</version>
         <extensions>true</extensions>
         <executions>
           <execution>
